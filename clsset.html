@@ -1,0 +1,31 @@
+<html>
+    <head>
+
+    </head>
+    <style>
+        .cl1{
+            color:brown;
+            background-color: blueviolet;
+            font-size: 20px;
+            border:2px solid red;
+        }
+        .cl2{
+            color: brown;
+            background-color:yellowgreen;
+            font-size: 23px;
+            border: 2px solid gray;
+        }
+    </style>
+    <body>
+        <div class="con">
+            <p onclick="fun(this)">hello</p>
+            <p onclick="fun(this)">to</p>
+            <p onclick="fun(this)">all</p>
+        </div>
+        <script>
+            function fun(e){
+                e.className="cl2"
+            }
+        </script>
+    </body>
+</html>
